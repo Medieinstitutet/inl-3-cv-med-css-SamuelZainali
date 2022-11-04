@@ -1,0 +1,10 @@
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: rgb(31, 32, 48);
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}

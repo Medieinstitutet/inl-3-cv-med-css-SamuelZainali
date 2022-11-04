@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+body{
+    font-family: Inter,sans-serif;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    max-width: 300px;
+}
