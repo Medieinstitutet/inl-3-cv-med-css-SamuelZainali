@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+.profile-header {
+  grid-column: 1/-1;
+  margin-bottom: 2rem;
+}
+
+.name-flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.profile-name {
+  margin-top: 6rem;
+  margin-left: 2.6rem;
+}
+
+.profile-primaryname {
+  color: white;
+  font-weight: bold;
+  font-size: clamp(2rem, 8vw, 4rem);
+  text-transform: uppercase;
+}
+
+.profile-lastname {
+  color: #FF00A8;
+  font-weight: bold;
+  font-size: clamp(2rem, 8vw, 4rem);
+  text-transform: uppercase;
+}
+
+.info-1, .info-2 {
+  list-style: none;
+  margin-top: 2rem;
+  font-size: 1rem;
+  display: flex;
+}
+
+.adress {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.phone {
+  margin-left: -1.4rem;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  padding: 5rem;
+  background: rgb(31, 32, 48);
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.description {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.title {
+  color: #FF00A8;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.title-column {
+  max-width: 37rem;
+}
+
+.item-title {
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  margin: 0.2rem 0;
+}
+
+.item-pretitle {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.profile-title {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.education-item {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+    gap: 7rem;
+  }
+  .profile-name {
+    margin-top: 3rem;
+  }
+  .info-1, .info-2 {
+    font-size: 0.8rem;
+    margin-left: -3rem;
+  }
+}
+.refrence-list {
+  list-style: none;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.ref-item .refrence-list {
+  margin-top: 2rem;
+}
+
+.skill-list {
+  list-style: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  line-height: 2;
+}
+
+.progress {
+  position: absolute;
+  width: 16rem;
+  height: 11px;
+  border-radius: 30px;
+  background: #ffffff;
+  margin-top: 1rem;
+}
+
+.progress-2 {
+  margin-left: -0.1rem;
+  position: absolute;
+  width: 10rem;
+  height: 11px;
+  border-radius: 30px;
+  background: #FF00A8;
+}
+
+.progress-3 {
+  margin-left: -0.1rem;
+  position: absolute;
+  width: 12rem;
+  height: 11px;
+  border-radius: 30px;
+  background: #FF00A8;
+}
+
+.progress-4 {
+  margin-left: -0.1rem;
+  position: absolute;
+  width: 10rem;
+  height: 11px;
+  border-radius: 30px;
+  background: #FF00A8;
+}
+
+.progress-5 {
+  margin-left: -0.1rem;
+  position: absolute;
+  width: 5rem;
+  height: 11px;
+  border-radius: 30px;
+  background: #FF00A8;
+}
+
+.progress-6 {
+  margin-left: -0.1rem;
+  position: absolute;
+  width: 8rem;
+  height: 11px;
+  border-radius: 30px;
+  background: #FF00A8;
+}
+
+.year {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+.item-subtitle {
+  font-size: 1.4rem;
+}
+
+.experience {
+  margin-top: 2rem;
+}
+
+.experience-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.experience-2 .item-title {
+  margin-top: 2rem;
+}/*# sourceMappingURL=style.css.map */

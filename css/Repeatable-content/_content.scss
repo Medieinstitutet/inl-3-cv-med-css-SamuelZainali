@@ -1,0 +1,45 @@
+
+.description{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.title{
+    color: #FF00A8;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.title-column{
+    max-width: 37rem;
+}
+
+.item-title{
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    margin: 0.2rem 0;
+}
+.item-pretitle{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+
+.profile-title{
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.education-item{
+    margin-top: 2rem;
+}
+
